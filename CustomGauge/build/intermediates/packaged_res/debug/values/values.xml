@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomGauge"><attr format="integer" name="gaugePointSize"/><attr format="color" name="gaugePointStartColor"/><attr format="color" name="gaugePointEndColor"/><attr format="color" name="gaugeStrokeColor"/><attr format="dimension" name="gaugeStrokeWidth"/><attr format="string" name="gaugeStrokeCap"/><attr format="integer" name="gaugeStartAngle"/><attr format="integer" name="gaugeSweepAngle"/><attr format="integer" name="gaugeStartValue"/><attr format="integer" name="gaugeEndValue"/><attr format="integer" name="gaugeDividerSize"/><attr format="color" name="gaugeDividerColor"/><attr format="integer" name="gaugeDividerStep"/><attr format="boolean" name="gaugeDividerDrawFirst"/><attr format="boolean" name="gaugeDividerDrawLast"/></declare-styleable>
+    <string name="app_name">CustomGauge</string>
+</resources>

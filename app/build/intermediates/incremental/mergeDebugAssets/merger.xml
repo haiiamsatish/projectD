@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config=":CustomGauge"><source path="E:\01 android app\ProjectD Original\CustomGauge\build\intermediates\packagedAssets\debug"/></dataSet><dataSet config="main"><source path="E:\01 android app\ProjectD Original\app\src\main\assets"/><source path="E:\01 android app\ProjectD Original\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\01 android app\ProjectD Original\app\src\debug\assets"/></dataSet></merger>

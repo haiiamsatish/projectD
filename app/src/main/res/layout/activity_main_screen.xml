@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:padding="5sp"
+    android:keepScreenOn="true"
+    tools:context="com.yantramicrosystems.www.projectd.MainScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:orientation="horizontal"
+
+        android:layout_weight="54"
+        android:weightSum="100"
+        >
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/tvG1Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+
+                android:textColor="@color/pure_white"
+                />
+
+            <TextView
+                android:id="@+id/tvG1Unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="25sp"
+                android:textColor="@color/pure_white"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Max: "
+                    android:textSize="30sp"
+                    android:textColor="@color/pure_white"
+                    />
+                <TextView
+                    android:id="@+id/tvG1Max"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:textColor="@color/pure_white"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout7"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:weightSum="90"
+            >
+
+            <TextView
+                android:id="@+id/tvG7Name"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+
+                android:textColor="@color/pure_white"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_weight="13"
+
+                />
+            <TextView
+                android:id="@+id/tvG7Value"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+
+                android:textColor="@color/pure_white"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_weight="15"
+                />
+            <TextView
+                android:id="@+id/tvG8Name"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+
+                android:textColor="@color/pure_white"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_weight="13"
+                />
+            <TextView
+                android:id="@+id/tvG8Value"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+
+                android:textColor="@color/pure_white"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_weight="15"
+                />
+            <TextView
+                android:id="@+id/tvG9Name"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+
+                android:textColor="@color/pure_white"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_weight="13"
+                />
+            <TextView
+                android:id="@+id/tvG9Value"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+
+                android:textColor="@color/pure_white"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_weight="13"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/tvG2Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="60sp"
+                android:textColor="@color/pure_white"
+                />
+
+            <TextView
+                android:id="@+id/tvG2Unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="25sp"
+                android:textColor="@color/pure_white"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Max: "
+                    android:textSize="30sp"
+                    android:textColor="@color/pure_white"
+                    />
+                <TextView
+                    android:id="@+id/tvG2Max"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:textColor="@color/pure_white"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="35"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:id="@+id/layout3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            >
+
+            <pl.pawelkleczkowski.customgauge.CustomGauge
+                android:id="@+id/idGauge3"
+                android:layout_width="110sp"
+                android:layout_height="110sp"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="10sp"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:paddingTop="10sp"
+                app:gaugeEndValue="100"
+                app:gaugePointEndColor="#FF0000"
+                app:gaugePointStartColor="#00FF00"
+                app:gaugeStartAngle="135"
+                app:gaugeStartValue="0"
+                app:gaugeStrokeCap="ROUND"
+                app:gaugeStrokeColor="@color/md_grey_400"
+                app:gaugeStrokeWidth="10sp"
+                app:gaugeSweepAngle="270" />
+
+            <TextView
+                android:id="@+id/tvG3Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idGauge3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="48sp"
+
+                android:text="0"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvG3Max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idGauge3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25sp"
+                android:text="0"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvG3Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idGauge3"
+                android:layout_centerHorizontal="true"
+                android:textSize="16sp"
+                android:layout_marginBottom="-5sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:id="@+id/layout4"
+            >
+
+
+            <pl.pawelkleczkowski.customgauge.CustomGauge
+                android:id="@+id/idGauge4"
+                android:layout_width="110sp"
+                android:layout_height="110sp"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="10sp"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:paddingTop="10sp"
+                app:gaugeEndValue="100"
+                app:gaugePointEndColor="#FF0000"
+                app:gaugePointStartColor="#00FF00"
+                app:gaugeStartAngle="135"
+                app:gaugeStartValue="0"
+                app:gaugeStrokeCap="ROUND"
+                app:gaugeStrokeColor="@color/md_grey_400"
+                app:gaugeStrokeWidth="10sp"
+                app:gaugeSweepAngle="270" />
+
+            <TextView
+                android:id="@+id/tvG4Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idGauge4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="48sp"
+
+                android:text="0"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvG4Max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idGauge4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25sp"
+                android:text="0"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvG4Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idGauge4"
+                android:layout_centerHorizontal="true"
+                android:textSize="16sp"
+                android:layout_marginBottom="-5sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:id="@+id/layout5"
+            >
+
+
+            <pl.pawelkleczkowski.customgauge.CustomGauge
+                android:id="@+id/idGauge5"
+                android:layout_width="110sp"
+                android:layout_height="110sp"
+
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="10sp"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:paddingTop="10sp"
+                app:gaugeEndValue="100"
+                app:gaugePointEndColor="#FF0000"
+                app:gaugePointStartColor="#00FF00"
+                app:gaugeStartAngle="135"
+                app:gaugeStartValue="0"
+                app:gaugeStrokeCap="ROUND"
+                app:gaugeStrokeColor="@color/md_grey_400"
+                app:gaugeStrokeWidth="10sp"
+                app:gaugeSweepAngle="270" />
+
+            <TextView
+                android:id="@+id/tvG5Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idGauge5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="48sp"
+
+                android:text="0"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvG5Max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idGauge5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25sp"
+                android:text="0"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvG5Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idGauge5"
+                android:layout_centerHorizontal="true"
+                android:textSize="16sp"
+                android:layout_marginBottom="-5sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:id="@+id/layout6"
+            >
+
+
+            <pl.pawelkleczkowski.customgauge.CustomGauge
+                android:id="@+id/idGauge6"
+                android:layout_width="110sp"
+                android:layout_height="110sp"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="10sp"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:paddingTop="10sp"
+                app:gaugeEndValue="100"
+                app:gaugePointEndColor="#FF0000"
+                app:gaugePointStartColor="#00FF00"
+                app:gaugeStartAngle="135"
+                app:gaugeStartValue="0"
+                app:gaugeStrokeCap="ROUND"
+                app:gaugeStrokeColor="@color/md_grey_400"
+                app:gaugeStrokeWidth="10sp"
+                app:gaugeSweepAngle="270" />
+
+            <TextView
+                android:id="@+id/tvG6Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idGauge6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="48sp"
+                android:text="0"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvG6Max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idGauge6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25sp"
+                android:text="0"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvG6Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idGauge6"
+                android:layout_centerHorizontal="true"
+                android:textSize="16sp"
+                android:layout_marginBottom="-5sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:orientation="horizontal"
+        android:layout_weight="12"
+        android:weightSum="100"
+        >
+        <Spinner
+            android:id="@+id/id_spinner_pairedDevices"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            />
+
+        <Button
+            android:id="@+id/btConnect"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="connect"
+            />
+        <TextView
+            android:id="@+id/tvCurrentLocation"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="45"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@color/pure_white"
+            android:gravity="center_vertical"
+
+            />
+
+        <ImageButton
+
+            android:id="@+id/idbtSettings"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:src="@drawable/settings_icon"
+            android:background="@null"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

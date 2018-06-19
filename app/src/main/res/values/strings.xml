@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Project D</string>
+
+    <string name="legend"><u>Legend</u></string>
+
+    <string-array name="guages">
+        <item>Guage 1</item>
+        <item>Guage 2</item>
+        <item>Guage 3</item>
+        <item>Guage 4</item>
+        <item>Guage 5</item>
+        <item>Guage 6</item>
+        <item>Guage 7</item>
+        <item>Guage 8</item>
+        <item>Guage 9</item>
+    </string-array>
+
+    <string-array name="Factor_Type">
+        <item>Addition</item>
+        <item>Subtraction</item>
+        <item>Multiplication</item>
+        <item>Division</item>
+    </string-array>
+
+</resources>
